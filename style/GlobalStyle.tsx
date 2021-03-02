@@ -56,4 +56,12 @@ export const GlobalStyle = createGlobalStyle`
   h6 {
     font-size: 1rem;
   }
+
+  a {
+    color: #0d6efd;
+    text-decoration: underline;
+    &:hover {
+      color: #0a58ca;
+    }
+  }
 `
